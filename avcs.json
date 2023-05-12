@@ -1,0 +1,59 @@
+[
+  {
+    "number": 1,
+    "vuln": "Open-Redirect",
+    "code": {
+      "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/open-redirect/app.vuln.rb",
+      "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/open-redirect/app.fix.rb",
+      "lang": "ruby",
+      "source": "https://github.com/Acceis/vulnerable-code-snippets/tree/master/open-redirects"
+    },
+    "keywords": ["open-redirect", "regexp", "unicode", "line-feed"],
+    "announcement": {
+      "fr": "https://twitter.com/acceis/status/1620096659282853892",
+      "en": "https://twitter.com/acceis/status/1620096662265016321"
+    },
+    "solution": {
+      "fr": "https://www.acceis.fr/solution-de-lextrait-de-code-vulnerable-n1",
+      "en": "https://www.acceis.fr/solution-for-the-vulnerable-code-snippet-n1"
+    }
+  },
+  {
+    "number": 2,
+    "vuln": "XSS",
+    "code": {
+      "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/case-transformation-collision/app.vuln.rb",
+      "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/case-transformation-collision/app.fix.rb",
+      "lang": "ruby",
+      "source": "https://github.com/Acceis/vulnerable-code-snippets/tree/master/case-transformation-collision"
+    },
+    "keywords": ["case-transformation", "collision", "unicode", "xss", "normalization"],
+    "announcement": {
+      "fr": "https://twitter.com/acceis/status/1630193980091559937",
+      "en": "https://twitter.com/acceis/status/1630193982377426944"
+    },
+    "solution": {
+      "fr": "https://www.acceis.fr/solution-de-lextrait-de-code-vulnerable-n2/",
+      "en": "https://www.acceis.fr/solution-for-the-vulnerable-code-snippet-n2/"
+    }
+  },
+  {
+    "number": 3,
+    "vuln": "Broken Access Control",
+    "code": {
+      "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/access-control/app.vuln.js",
+      "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/access-control/app.fix.js",
+      "lang": "javascript",
+      "source": "https://github.com/Acceis/vulnerable-code-snippets/tree/master/access-control"
+    },
+    "keywords": ["access-control", "express", "node.js", "route"],
+    "announcement": {
+      "fr": "https://twitter.com/acceis/status/1647981700218077185",
+      "en": "https://twitter.com/acceis/status/1647981702235422720"
+    },
+    "solution": {
+      "fr": "https://www.acceis.fr/solution-de-lextrait-de-code-vulnerable-n3/",
+      "en": "https://www.acceis.fr/solution-for-the-vulnerable-code-snippet-n3/"
+    }
+  }
+]

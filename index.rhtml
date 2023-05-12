@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+  <head>
+  <%= ERB.new(File.read('_head.rhtml'), eoutvar: '_head').result(binding) %>
+  </head>
+  <body>
+  <%= ERB.new(File.read('_navbar.rhtml'), eoutvar: '_navbar').result(binding) %>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline">
+        <% avcs_data.each do |snip| %>
+        <div class="column is-half">
+          <div class="box">
+            <h3 class="title is-3">Snippet n°<%= snip['number'] %></h3>
+            <div class="block">
+              <pre><code class="language-<%= snip['code']['lang'] %>"><%= Net::HTTP.get(URI(snip['code']['vuln'])) %></code></pre>
+            </div>
+            <div class="block">
+              <details>
+                <summary>Solution</summary>
+                <h5 class="title is-5"><%= snip['vuln'] %></h5>
+                <div class="buttons block">
+                  <a class="button is-danger" href="<%= snip['solution']['fr'] %>">Solution 🇫🇷</a>
+                  <a class="button is-danger" href="<%= snip['solution']['en'] %>">Solution 🇬🇧</a>
+                </div>
+                <div class="block">
+                  <b>Fixed code:</b>
+                  <pre><code class="language-<%= snip['code']['lang'] %>"><%= Net::HTTP.get(URI(snip['code']['fix'])) %></code></pre>
+                </div>
+                <div class="tags">
+                  <% snip['keywords'].each do |kw| %>
+                  <span class="tag is-danger is-light"><%= kw %></span>
+                  <% end %>
+                </div>
+              </details>
+            </div>
+            <div class="buttons block">
+              <a class="button is-danger is-outlined" href="<%= snip['announcement']['fr'] %>">Announcement 🇫🇷</a>
+              <a class="button is-danger is-outlined" href="<%= snip['announcement']['en'] %>">Announcement 🇬🇧</a>
+            </div>
+          </div>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
