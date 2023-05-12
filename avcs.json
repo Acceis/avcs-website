@@ -8,7 +8,7 @@
       "lang": "ruby",
       "source": "https://github.com/Acceis/vulnerable-code-snippets/tree/master/open-redirects"
     },
-    "keywords": ["open-redirect", "regexp", "unicode", "line-feed"],
+    "keywords": ["open-redirect", "regexp", "unicode", "line-feed", "ruby", "roda"],
     "announcement": {
       "fr": "https://twitter.com/acceis/status/1620096659282853892",
       "en": "https://twitter.com/acceis/status/1620096662265016321"
@@ -27,7 +27,7 @@
       "lang": "ruby",
       "source": "https://github.com/Acceis/vulnerable-code-snippets/tree/master/case-transformation-collision"
     },
-    "keywords": ["case-transformation", "collision", "unicode", "xss", "normalization"],
+    "keywords": ["case-transformation", "collision", "unicode", "xss", "normalization", "ruby", "roda"],
     "announcement": {
       "fr": "https://twitter.com/acceis/status/1630193980091559937",
       "en": "https://twitter.com/acceis/status/1630193982377426944"
