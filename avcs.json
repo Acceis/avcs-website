@@ -55,5 +55,24 @@
       "fr": "https://www.acceis.fr/solution-de-lextrait-de-code-vulnerable-n3/",
       "en": "https://www.acceis.fr/solution-for-the-vulnerable-code-snippet-n3/"
     }
+  },
+  {
+    "number": 4,
+    "vuln": "SSRF",
+    "code": {
+      "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/inconsistent-values/app.vuln.rb",
+      "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/inconsistent-values/app.fix.rb",
+      "lang": "ruby",
+      "source": "https://github.com/Acceis/vulnerable-code-snippets/tree/master/inconsistent-values"
+    },
+    "keywords": ["inconsistent-values", "ssrf", "url-parsing", "bypass", "ruby", "roda"],
+    "announcement": {
+      "fr": "https://twitter.com/acceis/status/1660582304572481541",
+      "en": "https://twitter.com/acceis/status/1660582306875158529"
+    },
+    "solution": {
+      "fr": "https://www.acceis.fr/solution-de-lextrait-de-code-vulnerable-n4/",
+      "en": "https://www.acceis.fr/solution-for-the-vulnerable-code-snippet-n4/"
+    }
   }
 ]
