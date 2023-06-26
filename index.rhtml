@@ -11,7 +11,7 @@
         <% avcs_data.each do |snip| %>
         <div class="column is-half">
           <div class="box">
-            <h3 class="title is-3">Snippet n°<%= snip['number'] %></h3>
+            <h3 class="title is-3" id="snippet-<%= snip['number'] %>">Snippet n°<%= snip['number'] %></h3>
             <div class="block">
               <pre><code class="language-<%= snip['code']['lang'] %>"><%= Net::HTTP.get(URI(snip['code']['vuln'])) %></code></pre>
             </div>

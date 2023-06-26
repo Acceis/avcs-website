@@ -9,6 +9,16 @@
       <a class="navbar-item" href="index.html">
         ACCEIS Vulnerable Code Snippets
       </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Snippets
+        </a>
+        <div class="navbar-dropdown">
+          <% avcs_data.each do |snip| %>
+          <a class="navbar-item is-capitalized" href="#snippet-<%= snip['number'] %>">Snippet n°<%= snip['number'] %> - <%= snip['vuln'] %> (<%= snip['code']['lang'] %>)</a>
+          <% end %>
+        </div>
+      </div>
     </div>
     <div class="navbar-end">
       <div class="navbar-item">
