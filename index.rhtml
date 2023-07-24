@@ -1,3 +1,4 @@
+<%#-*- coding: utf-8 -*-%>
 <!DOCTYPE html>
 <html class="has-navbar-fixed-top">
   <head>
@@ -13,7 +14,7 @@
           <div class="box">
             <h3 class="title is-3" id="snippet-<%= snip['number'] %>">Snippet n°<%= snip['number'] %></h3>
             <div class="block">
-              <pre><code class="language-<%= snip['code']['lang'] %>"><%= Net::HTTP.get(URI(snip['code']['vuln'])) %></code></pre>
+              <pre><code class="language-<%= snip['code']['lang'] %>"><%= Net::HTTP.get(URI(snip['code']['vuln'])).force_encoding('UTF-8') %></code></pre>
             </div>
             <div class="block">
               <details>
@@ -25,7 +26,7 @@
                 </div>
                 <div class="block">
                   <b>Fixed code:</b>
-                  <pre><code class="language-<%= snip['code']['lang'] %>"><%= Net::HTTP.get(URI(snip['code']['fix'])) %></code></pre>
+                  <pre><code class="language-<%= snip['code']['lang'] %>"><%= Net::HTTP.get(URI(snip['code']['fix'])).force_encoding('UTF-8') %></code></pre>
                 </div>
                 <div class="tags">
                   <% snip['keywords'].each do |kw| %>
