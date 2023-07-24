@@ -93,5 +93,24 @@
       "fr": "https://www.acceis.fr/solution-de-lextrait-de-code-vulnerable-n5",
       "en": "https://www.acceis.fr/solution-for-the-vulnerable-code-snippet-n5"
     }
+  },
+  {
+    "number": 6,
+    "vuln": "Resource Injection",
+    "code": {
+      "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/authentication-bypass/app.vuln.php",
+      "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/authentication-bypass/app.fix.php",
+      "lang": "php",
+      "source": "https://github.com/Acceis/vulnerable-code-snippets/tree/master/authentication-bypass"
+    },
+    "keywords": ["resource-injection", "authentication", "bypass", "php", "backdoor"],
+    "announcement": {
+      "fr": "https://twitter.com/acceis/status/1682008440766443525",
+      "en": "https://twitter.com/acceis/status/1682008443354333184"
+    },
+    "solution": {
+      "fr": "https://www.acceis.fr/solution-de-lextrait-de-code-vulnerable-n6",
+      "en": "https://www.acceis.fr/solution-for-the-vulnerable-code-snippet-n6"
+    }
   }
 ]
