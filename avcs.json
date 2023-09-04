@@ -112,5 +112,24 @@
       "fr": "https://www.acceis.fr/solution-de-lextrait-de-code-vulnerable-n6",
       "en": "https://www.acceis.fr/solution-for-the-vulnerable-code-snippet-n6"
     }
+  },
+  {
+    "number": 7,
+    "vuln": "Local file disclosure",
+    "code": {
+      "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/local-file-disclosure/examples/app-vuln.rs",
+      "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/local-file-disclosure/examples/app-fix.rs",
+      "lang": "rust",
+      "source": "https://github.com/Acceis/vulnerable-code-snippets/tree/master/local-file-disclosure"
+    },
+    "keywords": ["local-file-disclosure", "path-traversal", "improper-limitation", "rust", "permissive-regexp"],
+    "announcement": {
+      "fr": "https://twitter.com/acceis/status/1620096659282853892",
+      "en": "https://twitter.com/acceis/status/1620096662265016321"
+    },
+    "solution": {
+      "fr": "https://www.acceis.fr/solution-de-lextrait-de-code-vulnerable-n7",
+      "en": "https://www.acceis.fr/solution-for-the-vulnerable-code-snippet-n7"
+    }
   }
 ]
