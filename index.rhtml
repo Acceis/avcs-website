@@ -21,8 +21,8 @@
                 <summary>Solution</summary>
                 <h5 class="title is-5"><%= snip['vuln'] %></h5>
                 <div class="buttons block">
-                  <a class="button is-danger" href="<%= snip['solution']['fr'] %>">Solution 🇫🇷</a>
-                  <a class="button is-danger" href="<%= snip['solution']['en'] %>">Solution 🇬🇧</a>
+                  <a class="button is-danger avcs-solution-fr" href="<%= snip['solution']['fr'] %>">Solution 🇫🇷</a>
+                  <a class="button is-danger avcs-solution-en" href="<%= snip['solution']['en'] %>">Solution 🇬🇧</a>
                 </div>
                 <div class="block">
                   <b>Fixed code:</b>
@@ -36,12 +36,14 @@
               </details>
             </div>
             <div class="buttons block">
-              <a class="button is-danger is-outlined" href="<%= snip['announcement']['fr'] %>">Announcement 🇫🇷</a>
-              <a class="button is-danger is-outlined" href="<%= snip['announcement']['en'] %>">Announcement 🇬🇧</a>
+              <a class="button is-danger is-outlined avcs-announcement-fr" href="<%= snip['announcement']['fr'] %>">Announcement 🇫🇷</a>
+              <a class="button is-danger is-outlined avcs-announcement-en" href="<%= snip['announcement']['en'] %>">Announcement 🇬🇧</a>
             </div>
             <div class="block">
               <b>Language:</b>
-              <span class="is-capitalized"><%= snip['code']['lang'] %></span>
+              <span class="is-capitalized avcs-language"><%= snip['code']['lang'] %></span>
+              <span>–</span>
+              <a class="avcs-source" href="<%= snip['code']['source'] %>">Source</a>
             </div>
           </div>
         </div>
