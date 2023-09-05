@@ -2,6 +2,7 @@
   {
     "number": 1,
     "vuln": "Open-Redirect",
+    "codename": "Free deflect",
     "code": {
       "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/open-redirect/app.vuln.rb",
       "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/open-redirect/app.fix.rb",
@@ -21,6 +22,7 @@
   {
     "number": 2,
     "vuln": "XSS",
+    "codename": "Blog à blagues",
     "code": {
       "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/case-transformation-collision/app.vuln.rb",
       "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/case-transformation-collision/app.fix.rb",
@@ -40,6 +42,7 @@
   {
     "number": 3,
     "vuln": "Broken Access Control",
+    "codename": "Secret manager",
     "code": {
       "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/access-control/app.vuln.js",
       "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/access-control/app.fix.js",
@@ -59,6 +62,7 @@
   {
     "number": 4,
     "vuln": "SSRF",
+    "codename": "Admin area",
     "code": {
       "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/inconsistent-values/app.vuln.rb",
       "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/inconsistent-values/app.fix.rb",
@@ -78,6 +82,7 @@
   {
     "number": 5,
     "vuln": "SSRF",
+    "codename": "My little proxy",
     "code": {
       "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/dns-rebinding/app.vuln.rb",
       "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/dns-rebinding/app.fix.rb",
@@ -97,6 +102,7 @@
   {
     "number": 6,
     "vuln": "Resource Injection",
+    "codename": "Pigments",
     "code": {
       "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/authentication-bypass/app.vuln.php",
       "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/authentication-bypass/app.fix.php",
@@ -116,6 +122,7 @@
   {
     "number": 7,
     "vuln": "Local file disclosure",
+    "codename": "Polygons",
     "code": {
       "vuln": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/local-file-disclosure/examples/app-vuln.rs",
       "fix": "https://raw.githubusercontent.com/Acceis/vulnerable-code-snippets/master/local-file-disclosure/examples/app-fix.rs",
